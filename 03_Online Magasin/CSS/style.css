@@ -70,7 +70,9 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+  align-items: center;
   height: 430px;
+  margin-bottom: 40px;
 }
 
 .scroll_bokse {
@@ -99,6 +101,32 @@
 
 .inkonlinje_tekst_scroll {
   font-size: 14px;
+}
+
+.scroll_button {
+  position: absolute;
+  background-color: #F6F5F0;
+  margin-top: 320px;
+  width: 174px;
+  height: 67px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.scroll_button_lang {
+  position: absolute;
+  background-color: #F6F5F0;
+  margin-top: 320px;
+  width: 370px;
+  height: 67px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.sroll_link {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #000000;
 }
 
 
