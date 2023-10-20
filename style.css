@@ -1,0 +1,614 @@
+  /*-------Forside------*/
+  body {
+    font-family: 'Inter';  
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #bolo_knap_tekst {
+    color: #ffffff;
+  }
+
+  #bolo_baggrund_forside {
+    width: 100%;
+  }
+  
+  .top_10 {
+    position: absolute;
+    top: 18.5%;
+    left: 4.5%;
+    color: #000000;
+  }
+  
+  .nr_1 {
+    position: absolute;
+    top: 10.3%;
+    left: 7%;
+    width: 5%;
+  }
+  
+  .italien_flag {
+    position: absolute;
+    top: 12.3%;
+    right: 7%;
+    width: 6%;
+  }
+  
+  
+  .bolo_knap {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    width: 500px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #5E5527;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 8px;
+    border-radius: 15px 0px;
+  }
+
+  /*---------Scroll boks----------*/
+
+.sroll_overskrift {
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+.scroll_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 430px;
+  margin-bottom: 40px;
+}
+
+.scroll_bokse {
+  display: flex;
+  justify-content: center;
+  width: 401px;
+  height: 430px;
+  background-color: #EBECE7;
+  border: 2px solid;
+}
+
+.scroll_img {
+  height: 225px;
+  margin-top: 20px;
+}
+
+.scroll_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 238px;
+  height: 25px;
+  margin-top: 270px;
+}
+
+.inkonlinje_tekst_scroll {
+  font-size: 14px;
+}
+
+.scroll_button {
+  position: absolute;
+  background-color: #F6F5F0;
+  margin-top: 320px;
+  width: 174px;
+  height: 67px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.scroll_button_lang {
+  position: absolute;
+  background-color: #F6F5F0;
+  margin-top: 320px;
+  width: 370px;
+  height: 67px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.sroll_link {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #000000;
+}
+
+
+  /*---------Scroll boks----------*/
+
+
+  .Arima_heading {
+    padding-top: 120px;
+    text-align: center;
+    font-family: 'Arima';
+    font-size: 70px;  
+  }
+
+  .Arima_heading_2 {
+    padding-top: 140px;
+    margin-left: 160px;
+    font-family: 'Arima';
+    font-size: 70px;  
+  }
+
+  .Arima_heading_3 {
+    padding-top: 120px;
+    text-align: center;
+    font-family: 'Arima';
+    font-size: 50px;  
+  }
+
+
+
+  /*---------Italien side----------*/
+#Overskrift_italien {
+  padding-top: 100px;
+  font-size: 24px;
+  text-align: center;
+}
+#link_spabolo {
+  color: #000000;
+}
+
+
+
+
+  /*----------------  Spa Bolo side ------------------*/
+
+#bolo_hovedbillede {
+  width: 52%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px;
+  margin-bottom: 30px;
+}
+
+
+
+.inkonlinje_tekst {
+  padding-right: 30px;
+  padding-left: 5px;
+}
+
+#inkonlinje_link {
+  text-decoration: underline;
+  color: #000000;
+  cursor: pointer;
+}
+
+
+
+.ingredienser_container {
+  margin: 0 auto;
+  width: 676px;
+  height: 538px;
+  padding: 10px;
+  background-color: #F0F0F0;
+  border: 1.5px solid #000000;
+  border-radius: 5px;
+}
+
+#ingredienser_overskrift {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.ingredienser_bullets {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 53px;
+  font-size: 23px;
+  line-height: 130%;
+  font-weight: lighter;
+}
+
+/*steps billede højre*/
+
+.step_højre {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1160px;
+  height: 457px;
+  padding: 10px;
+  background-color: #F6F5F0;
+  border: 1.5px solid #000000;
+}
+
+.step_overskrift_højre {
+  position: absolute;
+  font-size: 36px;
+  margin-left: 100px;
+  margin-top: 140px;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+
+.step_bullet_1_højre {
+  position: absolute;
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 100px;
+  margin-top: 210px;
+  font-size: 23px;
+  line-height: 130%;
+  font-weight: lighter;
+}
+
+.step_bullet_2_højre {
+  position: absolute;
+  display: list-item;
+  list-style-type: disc;
+  margin-top: 252px;
+  margin-left: 100px;
+  font-size: 23px;
+  line-height: 130%;
+  font-weight: lighter;
+}
+
+.step_bullet_3_højre {
+  position: absolute;
+  display: list-item;
+  list-style-type: disc;
+  margin-top: 294px;
+  margin-left: 100px;
+  font-size: 23px;
+  line-height: 130%;
+  font-weight: lighter;
+}
+
+
+.step_billede_højre {
+  position: absolute;
+  width: 496px;
+  margin-top: 35px;
+  margin-left: 580px;
+  border: 1.5px solid #171542; 
+  border-radius: 10px 0px;
+}
+
+.step_venstre {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1160px;
+  height: 457px;
+  padding: 10px;
+  background-color: #F6F5F0;
+  border: 1.5px solid #000000;
+}
+
+.step_overskrift_venstre {
+  position: absolute;
+  font-size: 36px;
+  margin-left: 660px;
+  margin-top: 140px;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+
+.step_bullet_1_venstre {
+  position: absolute;
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 660px;
+  margin-top: 210px;
+  font-size: 23px;
+  line-height: 130%;
+  font-weight: lighter;
+}
+
+.step_bullet_2_venstre {
+  position: absolute;
+  display: list-item;
+  list-style-type: disc;
+  margin-top: 252px;
+  margin-left: 660px;
+  font-size: 23px;
+  line-height: 130%;
+  font-weight: lighter;
+}
+
+.step_billede_venstre {
+  position: absolute;
+  width: 496px;
+  margin-top: 35px;
+  margin-left: 80px;
+  border: 1.5px solid #171542;
+  border-radius: 0px 10px; 
+}
+
+/*Tips & tricks*/
+.tips_container {
+  margin: 0 auto;
+  width: 1160px;
+  height: 860px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #F0F0F0;
+  border: 1.5px solid #000000;
+  border-radius: 5px;
+}
+
+#tips_overskrift {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.tips_bullets_1 {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 53px;
+  font-size: 23px;
+  line-height: 150%;
+  font-weight: lighter;
+}
+
+.tips_bullets {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 53px;
+  margin-right: 83px;
+  margin-top: 35px;
+  font-size: 23px;
+  line-height: 150%;
+  font-weight: lighter;
+}
+
+.tips_bullets_fed {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+
+
+  /*---------Pizza side----------*/
+  #pizza_hovedbillede {
+    width: 49%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  .sektion_overskrift_1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 160px;
+  }
+
+  .sektion_overskrift {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 160px;
+  }
+
+  .sektion_tekst {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 150px;
+    line-height: 35px;
+  }
+
+  .sektion_tekst_2 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 150px;
+    line-height: 35px;
+  }
+
+
+  .sektion_underoverskrift {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 160px;
+  }
+  
+  hr.line {
+    border: 1px solid #5E5527;
+    width: 1250px;
+    margin-top: 60px;
+  }
+
+  .sektion_inlineoverskrift {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .fordej_billeder {
+    width: 274px;
+    margin-left: 160px;
+    margin-top: 10px;
+  }
+
+
+  /*---------Skære løg side----------*/
+
+  .sektion_tekst_løg {
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 150px;
+    line-height: 30px;
+  }
+
+  .sektion_tekst_løg_2 {
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 8px;
+    margin-left: 160px;
+    margin-right: 150px;
+    line-height: 30px;
+  }
+
+  .sektion_overskrift_løg {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-right: 150px;
+    line-height: 30px;
+  }
+
+
+    /*--------- Løg container ----------*/
+
+  .step_løg_container {
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 1050px;
+    height: 310px;
+  }
+
+  .step_løg_overskrift_venstre {
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+  }
+
+  .step_løg_overskrift_højre {
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 600px;
+  }
+
+  .step_løg_tekst_venstre {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 25px;
+  }
+
+  .step_løg_tekst_højre {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 600px;
+    margin-right: 200px;
+    line-height: 25px;
+  }
+
+  .step_løg_billede_venstre {
+    position: absolute;
+    width: 200px;
+    margin-top: 150px;
+    border: 1.5px solid #5E5527;
+    border-radius: 5px;   
+  }
+
+  .step_løg_billede_venstre_2 {
+    position: absolute;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 220px;
+    border: 1.5px solid #5E5527;   
+    border-radius: 5px;
+  }
+
+  .step_løg_billede_højre {
+    position: absolute;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 600px;
+    border: 1.5px solid #5E5527;   
+    border-radius: 5px;
+  }
+
+  .step_løg_billede_højre_2 {
+    position: absolute;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 820px;
+    border: 1.5px solid #5E5527;   
+    border-radius: 5px;
+  }
+
+  #løg_slags_container_1 {
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 1050px;
+    height: 155px;
+  }
+
+  #løg_slags_container_2 {
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 1050px;
+    height: 220px;
+  }
+
+  #løg_slags_container_3 {
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 1050px;
+    height: 175px;
+  }
+
+
+  .løg_slags_overskrift {
+    position: absolute;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+
+  .løg_slags_tekst {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 45px;
+    line-height: 25px;
+    width: 755px;
+  }
+
+  .løg_slags_billede {
+    position: absolute;
+    width: 225px;
+    margin-left: 790px;
+  }
+
