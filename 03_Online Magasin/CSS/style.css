@@ -55,6 +55,7 @@
     display: inline-block;
     cursor: pointer;
     letter-spacing: 8px;
+    border-radius: 15px 0px;
   }
 
   /*---------Scroll boks----------*/
@@ -111,6 +112,8 @@
   height: 67px;
   font-size: 25px;
   letter-spacing: 5px;
+  border: 2px solid;
+  border-radius: 5px;
 }
 
 .scroll_button_lang {
@@ -121,6 +124,8 @@
   height: 67px;
   font-size: 25px;
   letter-spacing: 5px;
+  border: 2px solid;
+  border-radius: 5px;
 }
 
 .sroll_link {
@@ -210,6 +215,7 @@
   padding: 10px;
   background-color: #F0F0F0;
   border: 1.5px solid #000000;
+  border-radius: 5px;
 }
 
 #ingredienser_overskrift {
@@ -291,6 +297,7 @@
   margin-top: 35px;
   margin-left: 580px;
   border: 1.5px solid #171542; 
+  border-radius: 10px 0px;
 }
 
 .step_venstre {
@@ -340,7 +347,8 @@
   width: 496px;
   margin-top: 35px;
   margin-left: 80px;
-  border: 1.5px solid #171542; 
+  border: 1.5px solid #171542;
+  border-radius: 0px 10px; 
 }
 
 /*Tips & tricks*/
@@ -352,6 +360,7 @@
   margin-bottom: 50px;
   background-color: #F0F0F0;
   border: 1.5px solid #000000;
+  border-radius: 5px;
 }
 
 #tips_overskrift {
@@ -529,7 +538,8 @@
     position: absolute;
     width: 200px;
     margin-top: 150px;
-    border: 1.5px solid #5E5527;   
+    border: 1.5px solid #5E5527;
+    border-radius: 5px;   
   }
 
   .step_løg_billede_venstre_2 {
@@ -538,6 +548,7 @@
     margin-top: 150px;
     margin-left: 220px;
     border: 1.5px solid #5E5527;   
+    border-radius: 5px;
   }
 
   .step_løg_billede_højre {
@@ -546,6 +557,7 @@
     margin-top: 150px;
     margin-left: 600px;
     border: 1.5px solid #5E5527;   
+    border-radius: 5px;
   }
 
   .step_løg_billede_højre_2 {
@@ -554,6 +566,7 @@
     margin-top: 150px;
     margin-left: 820px;
     border: 1.5px solid #5E5527;   
+    border-radius: 5px;
   }
 
   #løg_slags_container_1 {
